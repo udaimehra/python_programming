@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cartridge_basiclti_link xmlns="http://www.imsglobal.org/xsd/imslticc_v1p0" xmlns:blti="http://www.imsglobal.org/xsd/imsbasiclti_v1p0" xmlns:lticm="http://www.imsglobal.org/xsd/imslticm_v1p0" xmlns:lticp="http://www.imsglobal.org/xsd/imslticp_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imslticc_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticc_v1p0.xsd http://www.imsglobal.org/xsd/imslticp_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticp_v1p0.xsd http://www.imsglobal.org/xsd/imslticm_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticm_v1p0.xsd http://www.imsglobal.org/xsd/imsbasiclti_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imsbasiclti_v1p0p1.xsd">
+  <blti:title>Peer Graded: Installation Screen Shots</blti:title>
+  <blti:description>Peer Graded: Installation Screen Shots</blti:description>
+  <blti:custom>
+    <lticm:property name="caliper_url">$Caliper.url</lticm:property>
+    <lticm:property name="config">{"title":"Peer Review: Installing and Running Python Screen Shots","description":"Install Python and a programming text editor and write a program that prints one line other than 'hello world', then take two screen shots and upload them below. You should use the command line to execute the Python program you wrote in the text editor. Please do *not* use the IDLE Python Shell, the Python Interpreter (&gt;&gt;&gt;), or a shortcut in your text editor to run the code. Later in the class when we start reading files, we will need to be able to run Python programs from particular directories. See the videos for details.","grading":"This is a relatively simple assignment. The goal is to simply show that each student has Python installed on their desktop or laptop and can take screen shots. Please make your comments to help the student that you are reviewing.","assignment":"https:\/\/www.py4e.com\/install","parts":[{"title":"Image of the program being edited in a text editor","type":"image"},{"title":"Image of the program being executed in the command line or terminal","type":"image"}],"totalpoints":10,"minassess":2,"assesspoints":2,"instructorpoints":0,"maxassess":8,"peerpoints":6,"flag":true,"rating":0,"gallery":"off","resubmit":"off","notepublic":"false","galleryformat":"card"}</lticm:property>
+  </blti:custom>
+  <blti:extensions platform="www.tsugi.org">
+    <lticm:property name="apphome">https://www.py4e.com</lticm:property>
+  </blti:extensions>
+  <blti:extensions platform="canvas.instructure.com">
+    <lticm:property name="outcome">10.0</lticm:property>
+    <lticm:property name="canvas_caliper_url">$Caliper.url</lticm:property>
+  </blti:extensions>
+  <blti:launch_url>https://www.py4e.com/mod/peer-grade/?inherit=install</blti:launch_url>
+  <blti:secure_launch_url>https://www.py4e.com/mod/peer-grade/?inherit=install</blti:secure_launch_url>
+  <blti:vendor>
+    <lticp:code>tsugi.org</lticp:code>
+    <lticp:name>Tsugi Learning Platform</lticp:name>
+    <lticp:description>
+        Tsugi is a learning platform and set of APIs that make it easy to build
+        highly interoperable learning tools for use in standards compliant
+        Learning Management Systems like Sakai, Moodle, Blackboard, Brightspace, and Canvas.
+    </lticp:description>
+    <lticp:url>http://www.tsugi.org</lticp:url>
+    <lticp:contact>
+      <lticp:email>tsugi@apereo.org</lticp:email>
+    </lticp:contact>
+  </blti:vendor>
+</cartridge_basiclti_link>

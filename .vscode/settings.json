@@ -1,0 +1,6 @@
+{
+    "python.defaultInterpreterPath": "python3",
+    "python.autoComplete.extraPaths": [],
+    "python.analysis.diagnosticSeverityOverrides": {},
+    "python.analysis.extraPaths": []
+}

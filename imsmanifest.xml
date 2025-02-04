@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imsccv1p1/imscp_v1p1" xmlns:lom="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/resource" xmlns:lomimscc="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/manifest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="cctd0015" xsi:schemaLocation="http://www.imsglobal.org/xsd/imslticc_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticc_v1p0.xsd http://www.imsglobal.org/xsd/imslticp_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticp_v1p0.xsd http://www.imsglobal.org/xsd/imslticm_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticm_v1p0.xsd http://www.imsglobal.org/xsd/imsbasiclti_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imsbasiclti_v1p0p1.xsd">
+  <metadata>
+    <schema>IMS Common Cartridge</schema>
+    <schemaversion>1.1.0</schemaversion>
+    <lomimscc:lom>
+      <lomimscc:general>
+        <lomimscc:title>
+          <lomimscc:string language="en-US">Python for Everybody import</lomimscc:string>
+        </lomimscc:title>
+      </lomimscc:general>
+    </lomimscc:lom>
+  </metadata>
+  <organizations>
+    <organization identifier="T_1000" structure="rooted-hierarchy">
+      <item identifier="T_00000">
+        <item identifier="T_000001">
+          <title>Installing Python</title>
+          <item identifier="T_000002" identifierref="T_000002_R">
+            <title>Assignment: Installing Python</title>
+          </item>
+          <item identifier="T_000003" identifierref="T_000003_R">
+            <title>Reference: Using Replit to write Python Programs</title>
+          </item>
+          <item identifier="T_000004" identifierref="T_000004_R">
+            <title>Reference: Setting up a Python Environment in Microsoft Windows</title>
+          </item>
+          <item identifier="T_000005" identifierref="T_000005_R">
+            <title>Reference: Setting up a Python Environment in Macintosh</title>
+          </item>
+          <item identifier="T_000006" identifierref="T_000006_R">
+            <title>Reference: Recommended Programming Text Editors</title>
+          </item>
+          <item identifier="T_000007" identifierref="T_000007_R">
+            <title>Peer Graded: Installation Screen Shots</title>
+          </item>
+        </item>
+        <item identifier="T_000008">
+          <title>Why Program?</title>
+          <item identifier="T_000009" identifierref="T_000009_R">
+            <title>Video: Why Program - Part 1 (12:31)</title>
+          </item>
+          <item identifier="T_000010" identifierref="T_000010_R">
+            <title>Video: Why Program - Part 2 (12:16)</title>
+          </item>
+          <item identifier="T_000011" identifierref="T_000011_R">
+            <title>Video: What happens when the CPU cooler is removed?</title>
+          </item>
+          <item identifier="T_000012" identifierref="T_000012_R">
+            <title>Video: Inside of Hard Drive</title>
+          </item>
+          <item identifier="T_000013" identifierref="T_000013_R">
+            <title>Video: Why Program - Part 3 (7:49)</title>
+          </item>
+          <item identifier="T_000014" identifierref="T_000014_R">
+            <title>Video: Why Program - Part 4 (12:35)</title>
+          </item>
+          <item identifier="T_000015" identifierref="T_000015_R">
+            <title>Video: Writing 'hello world' in the Autograder (5:13)</title>
+          </item>
+          <item identifier="T_000016" identifierref="T_000016_R">
+            <title>Slides: Pythonlearn-01-Intro.pptx</title>
+          </item>
+          <item identifier="T_000017" identifierref="T_000017_R">
+            <title>Reference: Chapter 1: Introduction</title>
+          </item>
+          <item identifier="T_000018" identifierref="T_000018_R">
+            <title>Autograder: Write Hello World</title>
+          </item>
+          <item identifier="T_000019" identifierref="T_000019_R">
+            <title>Quiz: Why program?</title>
+          </item>
+        </item>
+        <item identifier="T_000020">
+          <title>Variables, expressions and statements</title>
+          <item identifier="T_000021" identifierref="T_000021_R">
+            <title>Video: Variables, Expressions and Statements - Part 1 (9:41)</title>
+          </item>
+          <item identifier="T_000022" identifierref="T_000022_R">
+            <title>Video: Variables, Expressions and Statements - Part 2 (19:53)</title>
+          </item>
+          <item identifier="T_000023" identifierref="T_000023_R">
+            <title>Video: Worked Exercise: 2.2 (6:12)</title>
+          </item>
+          <item identifier="T_000024" identifierref="T_000024_R">
+            <title>Video: Worked Exercise: 2.3 (7:49)</title>
+          </item>
+          <item identifier="T_000025" identifierref="T_000025_R">
+            <title>Slides: Pythonlearn-02-Expressions.pptx</title>
+          </item>
+          <item identifier="T_000026" identifierref="T_000026_R">
+            <title>Reference: Chapter 2: Variables</title>
+          </item>
+          <item identifier="T_000027" identifierref="T_000027_R">
+            <title>Autograder: Exercise 2.2</title>
+          </item>
+          <item identifier="T_000028" identifierref="T_000028_R">
+            <title>Autograder: Exercise 2.3</title>
+          </item>
+          <item identifier="T_000029" identifierref="T_000029_R">
+            <title>Quiz: Variables Expressions and Statements</title>
+          </item>
+        </item>
+        <item identifier="T_000030">
+          <title>Conditional Execution</title>
+          <item identifier="T_000031" identifierref="T_000031_R">
+            <title>Video: Conditional Execution - Part 1 (11:06)</title>
+          </item>
+          <item identifier="T_000032" identifierref="T_000032_R">
+            <title>Video: Conditional Execution - Part 2 (13:52)</title>
+          </item>
+          <item identifier="T_000033" identifierref="T_000033_R">
+            <title>Video: Worked Exercise 3.1 (12:07)</title>
+          </item>
+          <item identifier="T_000034" identifierref="T_000034_R">
+            <title>Video: Worked Exercise 3.2 (9:26)</title>
+          </item>
+          <item identifier="T_000035" identifierref="T_000035_R">
+            <title>Slides: Pythonlearn-03-Conditional.pptx</title>
+          </item>
+          <item identifier="T_000036" identifierref="T_000036_R">
+            <title>Reference: Chapter 3: Conditionals</title>
+          </item>
+          <item identifier="T_000037" identifierref="T_000037_R">
+            <title>Autograder: Exercise 3.1</title>
+          </item>
+          <item identifier="T_000038" identifierref="T_000038_R">
+            <title>Autograder: Exercise 3.3</title>
+          </item>
+          <item identifier="T_000039" identifierref="T_000039_R">
+            <title>Quiz: Conditional Execution</title>
+          </item>
+        </item>
+        <item identifier="T_000040">
+          <title>Functions</title>
+          <item identifier="T_000041" identifierref="T_000041_R">
+            <title>Video: Functions - Part 1 (10:50)</title>
+          </item>
+          <item identifier="T_000042" identifierref="T_000042_R">
+            <title>Video: Functions - Part 2 (12:35)</title>
+          </item>
+          <item identifier="T_000043" identifierref="T_000043_R">
+            <title>Video: Worked Exercise 4.6 (10:08)</title>
+          </item>
+          <item identifier="T_000044" identifierref="T_000044_R">
+            <title>Slides: Pythonlearn-04-Functions.pptx</title>
+          </item>
+          <item identifier="T_000045" identifierref="T_000045_R">
+            <title>Reference: Chapter 4: Functions</title>
+          </item>
+          <item identifier="T_000046" identifierref="T_000046_R">
+            <title>Autograder: Exercise 4.6</title>
+          </item>
+          <item identifier="T_000047" identifierref="T_000047_R">
+            <title>Quiz: Functions</title>
+          </item>
+        </item>
+        <item identifier="T_000048">
+          <title>Loops and Iterations</title>
+          <item identifier="T_000049" identifierref="T_000049_R">
+            <title>Video: Loops and Iteration - Part 1 (9:59)</title>
+          </item>
+          <item identifier="T_000050" identifierref="T_000050_R">
+            <title>Video: Loops and Iteration - Part 2 (6:52)</title>
+          </item>
+          <item identifier="T_000051" identifierref="T_000051_R">
+            <title>Video: Loops and Iteration - Part 3 (8:44)</title>
+          </item>
+          <item identifier="T_000052" identifierref="T_000052_R">
+            <title>Video: Loops and Iteration - Part 4 (18:48)</title>
+          </item>
+          <item identifier="T_000053" identifierref="T_000053_R">
+            <title>Video: Worked Exercise: 5.1 (8:31)</title>
+          </item>
+          <item identifier="T_000054" identifierref="T_000054_R">
+            <title>Slides: Pythonlearn-05-Iterations.pptx</title>
+          </item>
+          <item identifier="T_000055" identifierref="T_000055_R">
+            <title>Reference: Chapter 5: Iterations</title>
+          </item>
+          <item identifier="T_000056" identifierref="T_000056_R">
+            <title>Autograder: Exercise 5.2</title>
+          </item>
+          <item identifier="T_000057" identifierref="T_000057_R">
+            <title>Quiz: Loops and Iterations</title>
+          </item>
+        </item>
+        <item identifier="T_000058">
+          <title>Strings</title>
+          <item identifier="T_000059" identifierref="T_000059_R">
+            <title>Video: Strings - Part 1 (10:43)</title>
+          </item>
+          <item identifier="T_000060" identifierref="T_000060_R">
+            <title>Video: Strings - Part 2 (18:44)</title>
+          </item>
+          <item identifier="T_000061" identifierref="T_000061_R">
+            <title>Video: Worked Exercise: 6.5 (8:27)</title>
+          </item>
+          <item identifier="T_000062" identifierref="T_000062_R">
+            <title>Slides: Pythonlearn-06-Strings.pptx</title>
+          </item>
+          <item identifier="T_000063" identifierref="T_000063_R">
+            <title>Reference: Chapter 6: Strings</title>
+          </item>
+          <item identifier="T_000064" identifierref="T_000064_R">
+            <title>Autograder: Exercise 6.5</title>
+          </item>
+          <item identifier="T_000065" identifierref="T_000065_R">
+            <title>Quiz: Strings</title>
+          </item>
+        </item>
+        <item identifier="T_000066">
+          <title>Files</title>
+          <item identifier="T_000067" identifierref="T_000067_R">
+            <title>Video: Reading Files - Part 1 (7:55)</title>
+          </item>
+          <item identifier="T_000068" identifierref="T_000068_R">
+            <title>Video: Reading Files - Part 2 (13:46)</title>
+          </item>
+          <item identifier="T_000069" identifierref="T_000069_R">
+            <title>Video: Worked Exercise: 7.1 (9:44)</title>
+          </item>
+          <item identifier="T_000070" identifierref="T_000070_R">
+            <title>Slides: Pythonlearn-07-Files.pptx</title>
+          </item>
+          <item identifier="T_000071" identifierref="T_000071_R">
+            <title>Reference: Chapter 7: Files</title>
+          </item>
+          <item identifier="T_000072" identifierref="T_000072_R">
+            <title>Autograder: Exercise 7.2</title>
+          </item>
+          <item identifier="T_000073" identifierref="T_000073_R">
+            <title>Quiz: Files</title>
+          </item>
+        </item>
+        <item identifier="T_000074">
+          <title>Lists</title>
+          <item identifier="T_000075" identifierref="T_000075_R">
+            <title>Video: Lists - Part 1 (10:57)</title>
+          </item>
+          <item identifier="T_000076" identifierref="T_000076_R">
+            <title>Video: Lists - Part 2 (9:37)</title>
+          </item>
+          <item identifier="T_000077" identifierref="T_000077_R">
+            <title>Video: Lists - Part 3 (8:03)</title>
+          </item>
+          <item identifier="T_000078" identifierref="T_000078_R">
+            <title>Video: Lists, Files and the Guardian Pattern (12:01)</title>
+          </item>
+          <item identifier="T_000079" identifierref="T_000079_R">
+            <title>Slides: Pythonlearn-08-Lists.pptx</title>
+          </item>
+          <item identifier="T_000080" identifierref="T_000080_R">
+            <title>Reference: Chapter 8: Lists</title>
+          </item>
+          <item identifier="T_000081" identifierref="T_000081_R">
+            <title>Autograder: Exercise 8.4</title>
+          </item>
+          <item identifier="T_000082" identifierref="T_000082_R">
+            <title>Autograder: Exercise 8.5</title>
+          </item>
+          <item identifier="T_000083" identifierref="T_000083_R">
+            <title>Quiz: Lists</title>
+          </item>
+        </item>
+        <item identifier="T_000084">
+          <title>Dictionaries</title>
+          <item identifier="T_000085" identifierref="T_000085_R">
+            <title>Video: Dictionaries - Part 1 (9:51)</title>
+          </item>
+          <item identifier="T_000086" identifierref="T_000086_R">
+            <title>Video: Dictionaries - Part 2 (9:27)</title>
+          </item>
+          <item identifier="T_000087" identifierref="T_000087_R">
+            <title>Video: Dictionaries - Part 3 (11:44)</title>
+          </item>
+          <item identifier="T_000088" identifierref="T_000088_R">
+            <title>Video: Counting Word Frequency using a Dictionary (26:26)</title>
+          </item>
+          <item identifier="T_000089" identifierref="T_000089_R">
+            <title>Slides: Pythonlearn-09-Dictionaries.pptx</title>
+          </item>
+          <item identifier="T_000090" identifierref="T_000090_R">
+            <title>Reference: Chapter 9: Dictionaries</title>
+          </item>
+          <item identifier="T_000091" identifierref="T_000091_R">
+            <title>Reference: Fun: Sesame Street - The Count</title>
+          </item>
+          <item identifier="T_000092" identifierref="T_000092_R">
+            <title>Autograder: Exercise 9.4</title>
+          </item>
+          <item identifier="T_000093" identifierref="T_000093_R">
+            <title>Quiz: Dictionaries</title>
+          </item>
+        </item>
+        <item identifier="T_000094">
+          <title>Tuples</title>
+          <item identifier="T_000095" identifierref="T_000095_R">
+            <title>Video: Tuples - Part 1 (9:48)</title>
+          </item>
+          <item identifier="T_000096" identifierref="T_000096_R">
+            <title>Video: Tuples - Part 2 (12:24)</title>
+          </item>
+          <item identifier="T_000097" identifierref="T_000097_R">
+            <title>Video: Sorting a Dictionary Using Tuples (12:42)</title>
+          </item>
+          <item identifier="T_000098" identifierref="T_000098_R">
+            <title>Slides: Pythonlearn-10-Tuples.pptx</title>
+          </item>
+          <item identifier="T_000099" identifierref="T_000099_R">
+            <title>Reference: Chapter 10: Tuples</title>
+          </item>
+          <item identifier="T_000100" identifierref="T_000100_R">
+            <title>Autograder: Exercise 10.2</title>
+          </item>
+          <item identifier="T_000101" identifierref="T_000101_R">
+            <title>Quiz: Tuples</title>
+          </item>
+        </item>
+        <item identifier="T_000102">
+          <title>Regular Expressions</title>
+          <item identifier="T_000103" identifierref="T_000103_R">
+            <title>Video: Regular Expressions - Part 1 (10:47)</title>
+          </item>
+          <item identifier="T_000104" identifierref="T_000104_R">
+            <title>Video: Regular Expressions - Part 2 (8:47)</title>
+          </item>
+          <item identifier="T_000105" identifierref="T_000105_R">
+            <title>Video: Regular Expressions - Part 3 (8:51)</title>
+          </item>
+          <item identifier="T_000106" identifierref="T_000106_R">
+            <title>Slides: Pythonlearn-11-Regex.pptx</title>
+          </item>
+          <item identifier="T_000107" identifierref="T_000107_R">
+            <title>Reference: Chapter 11: Regular Expressions</title>
+          </item>
+          <item identifier="T_000108" identifierref="T_000108_R">
+            <title>Reference: Python Regular Expression Quick Guide</title>
+          </item>
+          <item identifier="T_000109" identifierref="T_000109_R">
+            <title>Autograder: Regular Expressions</title>
+          </item>
+          <item identifier="T_000110" identifierref="T_000110_R">
+            <title>Quiz: Regular Expressions</title>
+          </item>
+        </item>
+        <item identifier="T_000111">
+          <title>Network Programming</title>
+          <item identifier="T_000112" identifierref="T_000112_R">
+            <title>Video: Networks and Packets - Part 1 (7:44)</title>
+          </item>
+          <item identifier="T_000113" identifierref="T_000113_R">
+            <title>Video: Servers and Protocols - Part 2 (9:21)</title>
+          </item>
+          <item identifier="T_000114" identifierref="T_000114_R">
+            <title>Video: Using HTTP in Python - Part 3 (4:36)</title>
+          </item>
+          <item identifier="T_000115" identifierref="T_000115_R">
+            <title>Video: Worked Example: Sockets (6:12)</title>
+          </item>
+          <item identifier="T_000116" identifierref="T_000116_R">
+            <title>Video: Characters, ASCII, and Unicode - Part 4 (11:15)</title>
+          </item>
+          <item identifier="T_000117" identifierref="T_000117_R">
+            <title>Video: Using urllib in Python - Part 5 (5:31)</title>
+          </item>
+          <item identifier="T_000118" identifierref="T_000118_R">
+            <title>Video: Worked Example: Urllib (3:40)</title>
+          </item>
+          <item identifier="T_000119" identifierref="T_000119_R">
+            <title>Video: Beautiful Soup in Python - Part 6 (6:40)</title>
+          </item>
+          <item identifier="T_000120" identifierref="T_000120_R">
+            <title>Video: Worked Example: BeautifulSoup (9:21)</title>
+          </item>
+          <item identifier="T_000121" identifierref="T_000121_R">
+            <title>Slides: Pythonlearn-12-HTTP.pptx</title>
+          </item>
+          <item identifier="T_000122" identifierref="T_000122_R">
+            <title>Reference: Chapter 12: Networked Programs</title>
+          </item>
+          <item identifier="T_000123" identifierref="T_000123_R">
+            <title>Reference: ASCII Coding and Binary</title>
+          </item>
+          <item identifier="T_000124" identifierref="T_000124_R">
+            <title>Reference: Characters, Symbols and the Unicode Miracle - Computerphile</title>
+          </item>
+          <item identifier="T_000125" identifierref="T_000125_R">
+            <title>Autograder: Request-Response Cycle</title>
+          </item>
+          <item identifier="T_000126" identifierref="T_000126_R">
+            <title>Autograder: Scraping HTML Data with BeautifulSoup</title>
+          </item>
+          <item identifier="T_000127" identifierref="T_000127_R">
+            <title>Autograder: Following Links with BeautifulSoup</title>
+          </item>
+          <item identifier="T_000128" identifierref="T_000128_R">
+            <title>Quiz: HTTP</title>
+          </item>
+        </item>
+        <item identifier="T_000129">
+          <title>Using Web Services</title>
+          <item identifier="T_000130" identifierref="T_000130_R">
+            <title>Video: Web Services - Part 1 (2:49)</title>
+          </item>
+          <item identifier="T_000131" identifierref="T_000131_R">
+            <title>Video: Web Services - XML - Part 2 (5:42)</title>
+          </item>
+          <item identifier="T_000132" identifierref="T_000132_R">
+            <title>Video: Worked Example: XML (6:07)</title>
+          </item>
+          <item identifier="T_000133" identifierref="T_000133_R">
+            <title>Video: Web Services - XML Schema - Part 3 (14:08)</title>
+          </item>
+          <item identifier="T_000134" identifierref="T_000134_R">
+            <title>Video: Web Services - JSON - Part 4 (6:29)</title>
+          </item>
+          <item identifier="T_000135" identifierref="T_000135_R">
+            <title>Video: Worked Example: JSON (5:51)</title>
+          </item>
+          <item identifier="T_000136" identifierref="T_000136_R">
+            <title>Video: Discovering JSON - Douglas Crockford (7:08)</title>
+          </item>
+          <item identifier="T_000137" identifierref="T_000137_R">
+            <title>Video: Web Services - SOA - Part 5 (2:02)</title>
+          </item>
+          <item identifier="T_000138" identifierref="T_000138_R">
+            <title>Video: The JISC e-Framework (5:16)</title>
+          </item>
+          <item identifier="T_000139" identifierref="T_000139_R">
+            <title>Video: Web Services - GeoJSON - Part 6 (8:46)</title>
+          </item>
+          <item identifier="T_000140" identifierref="T_000140_R">
+            <title>Video: Worked Example: opengeo.py (20:09)</title>
+          </item>
+          <item identifier="T_000141" identifierref="T_000141_R">
+            <title>Slides: Pythonlearn-13-WebServices.pptx</title>
+          </item>
+          <item identifier="T_000142" identifierref="T_000142_R">
+            <title>Reference: Chapter 13: Python and Web Services</title>
+          </item>
+          <item identifier="T_000143" identifierref="T_000143_R">
+            <title>Autograder: Extracting Data from XML</title>
+          </item>
+          <item identifier="T_000144" identifierref="T_000144_R">
+            <title>Quiz: XML</title>
+          </item>
+          <item identifier="T_000145" identifierref="T_000145_R">
+            <title>Autograder: Extract Data from JSON</title>
+          </item>
+          <item identifier="T_000146" identifierref="T_000146_R">
+            <title>Quiz: JSON</title>
+          </item>
+          <item identifier="T_000147" identifierref="T_000147_R">
+            <title>Autograder: Using the GeoJSON API</title>
+          </item>
+        </item>
+        <item identifier="T_000148">
+          <title>Object-Oriented Programming</title>
+          <item identifier="T_000149" identifierref="T_000149_R">
+            <title>Video: Objects - Introduction - Part 1 (10:40)</title>
+          </item>
+          <item identifier="T_000150" identifierref="T_000150_R">
+            <title>Video: Objects - A Sample Class - Part 2 (8:22)</title>
+          </item>
+          <item identifier="T_000151" identifierref="T_000151_R">
+            <title>Video: Objects - Lifecycle - Part 3 (6:09)</title>
+          </item>
+          <item identifier="T_000152" identifierref="T_000152_R">
+            <title>Video: Objects - Inheritance - Part 4 (7:34)</title>
+          </item>
+          <item identifier="T_000153" identifierref="T_000153_R">
+            <title>Slides: Pythonlearn-14-Objects.pptx</title>
+          </item>
+          <item identifier="T_000154" identifierref="T_000154_R">
+            <title>Reference: Chapter 14: Python Objects</title>
+          </item>
+          <item identifier="T_000155" identifierref="T_000155_R">
+            <title>Quiz: Object-Oriented Programming</title>
+          </item>
+        </item>
+        <item identifier="T_000156">
+          <title>Databases</title>
+          <item identifier="T_000157" identifierref="T_000157_R">
+            <title>Video: Databases - Part 1 (15:41)</title>
+          </item>
+          <item identifier="T_000158" identifierref="T_000158_R">
+            <title>Video: Databases - Single Table SQL - Part 2 (10:07)</title>
+          </item>
+          <item identifier="T_000159" identifierref="T_000159_R">
+            <title>Video: Worked Example: Emaildb.py (13:39)</title>
+          </item>
+          <item identifier="T_000160" identifierref="T_000160_R">
+            <title>Video: Databases - Complex Models - Part 3 (8:44)</title>
+          </item>
+          <item identifier="T_000161" identifierref="T_000161_R">
+            <title>Video: Databases - Relationships - Part 4 (4:06)</title>
+          </item>
+          <item identifier="T_000162" identifierref="T_000162_R">
+            <title>Video: Databases - Foreign Keys - Part 5 (11:32)</title>
+          </item>
+          <item identifier="T_000163" identifierref="T_000163_R">
+            <title>Video: Databases - JOIN - Part 6 (10:30)</title>
+          </item>
+          <item identifier="T_000164" identifierref="T_000164_R">
+            <title>Video: Worked Example: Tracks.py - (7:56)</title>
+          </item>
+          <item identifier="T_000165" identifierref="T_000165_R">
+            <title>Video: Databases - Many-to-Many - Part 7 (13:13)</title>
+          </item>
+          <item identifier="T_000166" identifierref="T_000166_R">
+            <title>Video: Worked Example: Roster.py (11:27)</title>
+          </item>
+          <item identifier="T_000167" identifierref="T_000167_R">
+            <title>Slides: Pythonlearn-15-Databases.pptx</title>
+          </item>
+          <item identifier="T_000168" identifierref="T_000168_R">
+            <title>Reference: Chapter 15: Python and Databases</title>
+          </item>
+          <item identifier="T_000169" identifierref="T_000169_R">
+            <title>Reference: Python for Everybody Database Handout</title>
+          </item>
+          <item identifier="T_000170" identifierref="T_000170_R">
+            <title>Autograder: Single Table SQL</title>
+          </item>
+          <item identifier="T_000171" identifierref="T_000171_R">
+            <title>Quiz: Single Table SQL</title>
+          </item>
+          <item identifier="T_000172" identifierref="T_000172_R">
+            <title>Autograder: Counting Email in a Database</title>
+          </item>
+          <item identifier="T_000173" identifierref="T_000173_R">
+            <title>Autograder: Multi-Table Database - Tracks</title>
+          </item>
+          <item identifier="T_000174" identifierref="T_000174_R">
+            <title>Quiz: Data Modeling</title>
+          </item>
+          <item identifier="T_000175" identifierref="T_000175_R">
+            <title>Autograder: Many Students in Many Courses</title>
+          </item>
+          <item identifier="T_000176" identifierref="T_000176_R">
+            <title>Quiz: Many to Many</title>
+          </item>
+        </item>
+        <item identifier="T_000177">
+          <title>Data Visualization</title>
+          <item identifier="T_000178" identifierref="T_000178_R">
+            <title>Video: Visualization - Geodata - Part 1 (6:44)</title>
+          </item>
+          <item identifier="T_000179" identifierref="T_000179_R">
+            <title>Video: Worked Example: OpenGeo (18:47)</title>
+          </item>
+          <item identifier="T_000180" identifierref="T_000180_R">
+            <title>Video: Visualization - Page Rank - Part 2 (11:24)</title>
+          </item>
+          <item identifier="T_000181" identifierref="T_000181_R">
+            <title>Video: Worked Example: Page Rank - Spidering (17:25)</title>
+          </item>
+          <item identifier="T_000182" identifierref="T_000182_R">
+            <title>Video: Worked Example: Page Rank - Computation (15:36)</title>
+          </item>
+          <item identifier="T_000183" identifierref="T_000183_R">
+            <title>Video: Worked Example: Page Rank - Visualization (6:43)</title>
+          </item>
+          <item identifier="T_000184" identifierref="T_000184_R">
+            <title>Video: Visualization - Gmane (Email) Part 3 (6:59)</title>
+          </item>
+          <item identifier="T_000185" identifierref="T_000185_R">
+            <title>Video: Worked Example: Gmane - Spider (17:01)</title>
+          </item>
+          <item identifier="T_000186" identifierref="T_000186_R">
+            <title>Video: Worked Example: Gmane - Model (12:56)</title>
+          </item>
+          <item identifier="T_000187" identifierref="T_000187_R">
+            <title>Video: Worked Example: Gmane - Visualization (13:33)</title>
+          </item>
+          <item identifier="T_000188" identifierref="T_000188_R">
+            <title>Slides: Pythonlearn-16-Data-Viz.pptx</title>
+          </item>
+          <item identifier="T_000189" identifierref="T_000189_R">
+            <title>Reference: Chapter 16: Data Vizualization</title>
+          </item>
+        </item>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="T_000002_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000002.xml"/>
+    </resource>
+    <resource identifier="T_000003_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000003.xml"/>
+    </resource>
+    <resource identifier="T_000004_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000004.xml"/>
+    </resource>
+    <resource identifier="T_000005_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000005.xml"/>
+    </resource>
+    <resource identifier="T_000006_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000006.xml"/>
+    </resource>
+    <resource identifier="T_000007_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000007.xml"/>
+    </resource>
+    <resource identifier="T_000009_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000009.xml"/>
+    </resource>
+    <resource identifier="T_000010_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000010.xml"/>
+    </resource>
+    <resource identifier="T_000011_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000011.xml"/>
+    </resource>
+    <resource identifier="T_000012_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000012.xml"/>
+    </resource>
+    <resource identifier="T_000013_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000013.xml"/>
+    </resource>
+    <resource identifier="T_000014_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000014.xml"/>
+    </resource>
+    <resource identifier="T_000015_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000015.xml"/>
+    </resource>
+    <resource identifier="T_000016_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000016.xml"/>
+    </resource>
+    <resource identifier="T_000017_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000017.xml"/>
+    </resource>
+    <resource identifier="T_000018_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000018.xml"/>
+    </resource>
+    <resource identifier="T_000019_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000019.xml"/>
+    </resource>
+    <resource identifier="T_000021_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000021.xml"/>
+    </resource>
+    <resource identifier="T_000022_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000022.xml"/>
+    </resource>
+    <resource identifier="T_000023_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000023.xml"/>
+    </resource>
+    <resource identifier="T_000024_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000024.xml"/>
+    </resource>
+    <resource identifier="T_000025_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000025.xml"/>
+    </resource>
+    <resource identifier="T_000026_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000026.xml"/>
+    </resource>
+    <resource identifier="T_000027_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000027.xml"/>
+    </resource>
+    <resource identifier="T_000028_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000028.xml"/>
+    </resource>
+    <resource identifier="T_000029_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000029.xml"/>
+    </resource>
+    <resource identifier="T_000031_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000031.xml"/>
+    </resource>
+    <resource identifier="T_000032_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000032.xml"/>
+    </resource>
+    <resource identifier="T_000033_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000033.xml"/>
+    </resource>
+    <resource identifier="T_000034_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000034.xml"/>
+    </resource>
+    <resource identifier="T_000035_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000035.xml"/>
+    </resource>
+    <resource identifier="T_000036_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000036.xml"/>
+    </resource>
+    <resource identifier="T_000037_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000037.xml"/>
+    </resource>
+    <resource identifier="T_000038_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000038.xml"/>
+    </resource>
+    <resource identifier="T_000039_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000039.xml"/>
+    </resource>
+    <resource identifier="T_000041_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000041.xml"/>
+    </resource>
+    <resource identifier="T_000042_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000042.xml"/>
+    </resource>
+    <resource identifier="T_000043_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000043.xml"/>
+    </resource>
+    <resource identifier="T_000044_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000044.xml"/>
+    </resource>
+    <resource identifier="T_000045_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000045.xml"/>
+    </resource>
+    <resource identifier="T_000046_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000046.xml"/>
+    </resource>
+    <resource identifier="T_000047_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000047.xml"/>
+    </resource>
+    <resource identifier="T_000049_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000049.xml"/>
+    </resource>
+    <resource identifier="T_000050_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000050.xml"/>
+    </resource>
+    <resource identifier="T_000051_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000051.xml"/>
+    </resource>
+    <resource identifier="T_000052_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000052.xml"/>
+    </resource>
+    <resource identifier="T_000053_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000053.xml"/>
+    </resource>
+    <resource identifier="T_000054_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000054.xml"/>
+    </resource>
+    <resource identifier="T_000055_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000055.xml"/>
+    </resource>
+    <resource identifier="T_000056_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000056.xml"/>
+    </resource>
+    <resource identifier="T_000057_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000057.xml"/>
+    </resource>
+    <resource identifier="T_000059_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000059.xml"/>
+    </resource>
+    <resource identifier="T_000060_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000060.xml"/>
+    </resource>
+    <resource identifier="T_000061_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000061.xml"/>
+    </resource>
+    <resource identifier="T_000062_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000062.xml"/>
+    </resource>
+    <resource identifier="T_000063_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000063.xml"/>
+    </resource>
+    <resource identifier="T_000064_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000064.xml"/>
+    </resource>
+    <resource identifier="T_000065_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000065.xml"/>
+    </resource>
+    <resource identifier="T_000067_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000067.xml"/>
+    </resource>
+    <resource identifier="T_000068_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000068.xml"/>
+    </resource>
+    <resource identifier="T_000069_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000069.xml"/>
+    </resource>
+    <resource identifier="T_000070_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000070.xml"/>
+    </resource>
+    <resource identifier="T_000071_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000071.xml"/>
+    </resource>
+    <resource identifier="T_000072_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000072.xml"/>
+    </resource>
+    <resource identifier="T_000073_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000073.xml"/>
+    </resource>
+    <resource identifier="T_000075_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000075.xml"/>
+    </resource>
+    <resource identifier="T_000076_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000076.xml"/>
+    </resource>
+    <resource identifier="T_000077_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000077.xml"/>
+    </resource>
+    <resource identifier="T_000078_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000078.xml"/>
+    </resource>
+    <resource identifier="T_000079_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000079.xml"/>
+    </resource>
+    <resource identifier="T_000080_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000080.xml"/>
+    </resource>
+    <resource identifier="T_000081_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000081.xml"/>
+    </resource>
+    <resource identifier="T_000082_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000082.xml"/>
+    </resource>
+    <resource identifier="T_000083_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000083.xml"/>
+    </resource>
+    <resource identifier="T_000085_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000085.xml"/>
+    </resource>
+    <resource identifier="T_000086_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000086.xml"/>
+    </resource>
+    <resource identifier="T_000087_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000087.xml"/>
+    </resource>
+    <resource identifier="T_000088_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000088.xml"/>
+    </resource>
+    <resource identifier="T_000089_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000089.xml"/>
+    </resource>
+    <resource identifier="T_000090_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000090.xml"/>
+    </resource>
+    <resource identifier="T_000091_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000091.xml"/>
+    </resource>
+    <resource identifier="T_000092_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000092.xml"/>
+    </resource>
+    <resource identifier="T_000093_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000093.xml"/>
+    </resource>
+    <resource identifier="T_000095_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000095.xml"/>
+    </resource>
+    <resource identifier="T_000096_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000096.xml"/>
+    </resource>
+    <resource identifier="T_000097_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000097.xml"/>
+    </resource>
+    <resource identifier="T_000098_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000098.xml"/>
+    </resource>
+    <resource identifier="T_000099_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000099.xml"/>
+    </resource>
+    <resource identifier="T_000100_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000100.xml"/>
+    </resource>
+    <resource identifier="T_000101_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000101.xml"/>
+    </resource>
+    <resource identifier="T_000103_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000103.xml"/>
+    </resource>
+    <resource identifier="T_000104_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000104.xml"/>
+    </resource>
+    <resource identifier="T_000105_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000105.xml"/>
+    </resource>
+    <resource identifier="T_000106_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000106.xml"/>
+    </resource>
+    <resource identifier="T_000107_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000107.xml"/>
+    </resource>
+    <resource identifier="T_000108_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000108.xml"/>
+    </resource>
+    <resource identifier="T_000109_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000109.xml"/>
+    </resource>
+    <resource identifier="T_000110_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000110.xml"/>
+    </resource>
+    <resource identifier="T_000112_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000112.xml"/>
+    </resource>
+    <resource identifier="T_000113_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000113.xml"/>
+    </resource>
+    <resource identifier="T_000114_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000114.xml"/>
+    </resource>
+    <resource identifier="T_000115_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000115.xml"/>
+    </resource>
+    <resource identifier="T_000116_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000116.xml"/>
+    </resource>
+    <resource identifier="T_000117_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000117.xml"/>
+    </resource>
+    <resource identifier="T_000118_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000118.xml"/>
+    </resource>
+    <resource identifier="T_000119_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000119.xml"/>
+    </resource>
+    <resource identifier="T_000120_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000120.xml"/>
+    </resource>
+    <resource identifier="T_000121_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000121.xml"/>
+    </resource>
+    <resource identifier="T_000122_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000122.xml"/>
+    </resource>
+    <resource identifier="T_000123_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000123.xml"/>
+    </resource>
+    <resource identifier="T_000124_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000124.xml"/>
+    </resource>
+    <resource identifier="T_000125_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000125.xml"/>
+    </resource>
+    <resource identifier="T_000126_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000126.xml"/>
+    </resource>
+    <resource identifier="T_000127_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000127.xml"/>
+    </resource>
+    <resource identifier="T_000128_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000128.xml"/>
+    </resource>
+    <resource identifier="T_000130_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000130.xml"/>
+    </resource>
+    <resource identifier="T_000131_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000131.xml"/>
+    </resource>
+    <resource identifier="T_000132_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000132.xml"/>
+    </resource>
+    <resource identifier="T_000133_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000133.xml"/>
+    </resource>
+    <resource identifier="T_000134_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000134.xml"/>
+    </resource>
+    <resource identifier="T_000135_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000135.xml"/>
+    </resource>
+    <resource identifier="T_000136_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000136.xml"/>
+    </resource>
+    <resource identifier="T_000137_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000137.xml"/>
+    </resource>
+    <resource identifier="T_000138_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000138.xml"/>
+    </resource>
+    <resource identifier="T_000139_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000139.xml"/>
+    </resource>
+    <resource identifier="T_000140_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000140.xml"/>
+    </resource>
+    <resource identifier="T_000141_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000141.xml"/>
+    </resource>
+    <resource identifier="T_000142_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000142.xml"/>
+    </resource>
+    <resource identifier="T_000143_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000143.xml"/>
+    </resource>
+    <resource identifier="T_000144_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000144.xml"/>
+    </resource>
+    <resource identifier="T_000145_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000145.xml"/>
+    </resource>
+    <resource identifier="T_000146_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000146.xml"/>
+    </resource>
+    <resource identifier="T_000147_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000147.xml"/>
+    </resource>
+    <resource identifier="T_000149_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000149.xml"/>
+    </resource>
+    <resource identifier="T_000150_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000150.xml"/>
+    </resource>
+    <resource identifier="T_000151_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000151.xml"/>
+    </resource>
+    <resource identifier="T_000152_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000152.xml"/>
+    </resource>
+    <resource identifier="T_000153_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000153.xml"/>
+    </resource>
+    <resource identifier="T_000154_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000154.xml"/>
+    </resource>
+    <resource identifier="T_000155_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000155.xml"/>
+    </resource>
+    <resource identifier="T_000157_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000157.xml"/>
+    </resource>
+    <resource identifier="T_000158_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000158.xml"/>
+    </resource>
+    <resource identifier="T_000159_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000159.xml"/>
+    </resource>
+    <resource identifier="T_000160_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000160.xml"/>
+    </resource>
+    <resource identifier="T_000161_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000161.xml"/>
+    </resource>
+    <resource identifier="T_000162_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000162.xml"/>
+    </resource>
+    <resource identifier="T_000163_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000163.xml"/>
+    </resource>
+    <resource identifier="T_000164_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000164.xml"/>
+    </resource>
+    <resource identifier="T_000165_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000165.xml"/>
+    </resource>
+    <resource identifier="T_000166_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000166.xml"/>
+    </resource>
+    <resource identifier="T_000167_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000167.xml"/>
+    </resource>
+    <resource identifier="T_000168_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000168.xml"/>
+    </resource>
+    <resource identifier="T_000169_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000169.xml"/>
+    </resource>
+    <resource identifier="T_000170_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000170.xml"/>
+    </resource>
+    <resource identifier="T_000171_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000171.xml"/>
+    </resource>
+    <resource identifier="T_000172_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000172.xml"/>
+    </resource>
+    <resource identifier="T_000173_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000173.xml"/>
+    </resource>
+    <resource identifier="T_000174_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000174.xml"/>
+    </resource>
+    <resource identifier="T_000175_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000175.xml"/>
+    </resource>
+    <resource identifier="T_000176_R" type="imsbasiclti_xmlv1p0">
+      <file href="xml/LT_000176.xml"/>
+    </resource>
+    <resource identifier="T_000178_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000178.xml"/>
+    </resource>
+    <resource identifier="T_000179_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000179.xml"/>
+    </resource>
+    <resource identifier="T_000180_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000180.xml"/>
+    </resource>
+    <resource identifier="T_000181_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000181.xml"/>
+    </resource>
+    <resource identifier="T_000182_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000182.xml"/>
+    </resource>
+    <resource identifier="T_000183_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000183.xml"/>
+    </resource>
+    <resource identifier="T_000184_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000184.xml"/>
+    </resource>
+    <resource identifier="T_000185_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000185.xml"/>
+    </resource>
+    <resource identifier="T_000186_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000186.xml"/>
+    </resource>
+    <resource identifier="T_000187_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000187.xml"/>
+    </resource>
+    <resource identifier="T_000188_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000188.xml"/>
+    </resource>
+    <resource identifier="T_000189_R" type="imswl_xmlv1p1">
+      <file href="xml/WL_000189.xml"/>
+    </resource>
+    <resource identifier="g5d51089383699fa7bcf3f5c9b81c857d" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="course_settings/canvas_export.txt">
+      <file href="course_settings/canvas_export.txt"/>
+      <file href="course_settings/module_meta.xml"/>
+    </resource>
+  </resources>
+</manifest>

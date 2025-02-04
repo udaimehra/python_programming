@@ -1,0 +1,10 @@
+file = input("Enter the file name:")
+fhand = open(file, 'r')
+count = 0
+total = 0.0
+for line in fhand:
+    if line.startswith("X-DSPAM-Confidence"): 
+        count=count+1
+        total = total+float(line.split()[1])
+#print("Total DSPAM Confidence lines is: ", count)
+print("Average spam confidence:", total/count)

@@ -1,0 +1,17 @@
+import re
+mylist = list()
+mytotal = 0
+name = input("Enter file:")
+if len(name) < 1:
+    name = "regex_sum_2141805.txt" 
+handle = open(name)
+for line in handle:
+    line.rstrip()
+    x = re.findall('([0-9]+)', line)
+    if x != []:
+        mylist = mylist + x
+#print(mylist)
+for item in mylist:
+    item = int(item)
+    mytotal = mytotal+item
+print(mytotal)
