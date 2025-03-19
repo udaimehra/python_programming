@@ -1,0 +1,10 @@
+# To convert a list of tuple into a dictionary we can use 
+# the following dictionary comprehension
+animalList = [('a', 'aardvark'),('b', 'bear'),('c', 'cat'),('d', 'dog')]
+animals = {key: value for key, value in animalList}
+print(animals)
+
+# To convert a dictionary into a list of tuple, we can use the following
+newAnimalDict = { 'a': 'ape', 'd': 'dear', 'k': 'kite', 't': 'tiger', 'l': 'lion' }
+newAnimalList = newAnimalDict.items()
+print(newAnimalList)
