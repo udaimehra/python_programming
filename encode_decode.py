@@ -1,4 +1,9 @@
 # Python code below
+# This code takes a string as an input and gives the total occurence of that
+# characters in that string and prints the output as a set of list.
+# It then takes the list of set and constructs the string using the set values
+# in the list.
+
 
 def encodeString(stringVal):
     # Your code goes here.
