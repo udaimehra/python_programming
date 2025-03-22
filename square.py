@@ -1,7 +1,7 @@
 # Python code below
 # This program is to find out the square of a number by using only the 
 # triangle function given below.
-
+#class Answer:
 def triangle(num):
     if num == 1:
         return num
