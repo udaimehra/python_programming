@@ -25,7 +25,7 @@ class Solution(object):
 
 if __name__ == "__main__":
     function_name = "finder"
-    n = [1,1,1,1,1,1,1,1,3,3]
+    n = [1,1,3,3,1,1,1,1,1,1,3,3]
     t = 6
     ts = Solution(function_name)
     result = ts.twoSum(n, t)
