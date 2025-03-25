@@ -1,0 +1,37 @@
+class Solution(object):
+    def equalFrequency(self, word):
+        """
+        :type word: str
+        :rtype: bool
+        """
+        response = None
+        countList = {}
+        aboveOne = 0
+        wrdList = list(word.lower())
+        uniqLetters = []
+        uniqLetterSet = set(wrdList)
+        # Create the dictionary for each letter count
+        for i in wrdList:
+            countList[i] = wrdList.count(i)
+        print("Dictionary of words and counts is created", countList)
+        for keys in countList:
+            uniqLetterCount.append(countList[keys])
+        print("Unique Letter Count list is", uniqLetterCount)
+
+        if len(uniqList) > 2:
+            response = False
+        elif len(uniqList) == 2:
+            response = False
+            if uniqList[1]-uniqList[0] == 1:
+                response = True
+        elif len(uniqList) > 2:
+            response = False
+        return response
+
+mywrd = Solution()
+testcases = ["abccdeff", "aazzdd", "cccaa", "aaabbc", "abcd", "abbbcccd", "aabbccc", "abbc"]
+for i in testcases:
+    inp = i
+    print(inp)
+    result = mywrd.equalFrequency(inp)
+    print(result)
